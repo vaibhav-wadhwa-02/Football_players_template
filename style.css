@@ -1,0 +1,207 @@
+/* BORder */
+ .wrapper {
+	border: 0px solid #3a4d5f;
+	/* align-items: center; */ 
+	/* width: 90%;
+	padding-left: 30%; optional, add padding inside the border */
+}
+
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+	background-color: #3a4d5f;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	height: 80px;
+	font-size: 28px;
+	font-weight: bold;
+	position: fixed;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0px 2px 4px rgb(243, 241, 241);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 20px;
+	line-height: 80px;
+	text-decoration: none;
+	color: #fcfafa;
+	transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+	color: #007bff;
+}
+
+/* Main styles */
+main {
+	min-height: calc(100vh - 80px - 40px);
+	padding: 100px 0;
+}
+
+section {
+	text-align: center;
+}
+
+section h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+section p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.cta-button {
+	display: inline-block;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 30px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+	background-color: #0062cc;
+}
+
+/* Footer styles */
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #3a4d5f;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* images  */
+.image-card-container {
+	/* border: 2px solid #3a4d5f; */
+	width: 80%;
+	padding-left: 20%;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+}
+
+.image-card {
+	margin: 20px;
+	width: 300px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+  .image-card h3 {
+	padding: 10px;
+	font-size: 24px;
+  }
+  
+  .image-card p {
+	padding: 10px;
+	font-size: 16px;
+	color: #666;
+  }
+  
+  .image-card {
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	transition: transform 0.3s ease-in-out;
+	transition: all;
+  }
+  
+  .image-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px #a50ae2;  
+  }
+/* ----------------------------------------   */
+/* Header of best football players */
+
+.logo {
+	max-width: 53%;
+	height: auto;
+	margin-top: 100px;
+  }
+  
+.heading {
+	text-align: center;
+  }
+header {
+	background-color: #3a4d5f;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	height: 80px;
+	font-size: 28px;
+	font-weight: bold;
+	position: fixed;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0px 2px 4px rgb(243, 241, 241);
+  }
+
+/* SIDEBAR */
+.social-media-sidebar {
+	background-color: #333333;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding-top: 00px;
+	width: 0px;
+	height: 0px;
+	position: sticky;
+	top: 20%;
+}
+.social-icon {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.social-icon img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.social-media-sidebar a:hover {
+	transform: translateY(-5px);
+	transition: all 0.3s ease;
+  }
+/* ------------------------------ */
